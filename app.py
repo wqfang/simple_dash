@@ -73,7 +73,7 @@ def num_rows_to_show(nrows):
 
 if __name__ == '__main__':
     # cloud
-    app.run_server(debug=True)
+    app.run_server(host='0.0.0.0', debug=True)
 
     # debugging
     # app.run_server(host='0.0.0.0', debug=True, port=8050)

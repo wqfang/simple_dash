@@ -5,8 +5,8 @@ Using Render or Railway.
 ## a few things
 
 - Sad news from Heroku ... :(. [Here are some alternatives](https://www.qovery.com/blog/heroku-discontinue-their-free-tier---what-are-the-top-3-best-alternatives), with a [review](https://nixsanctuary.com/best-paas-backend-hosting-heroku-vs-render-vs-flyio-vs-railwayapp/)
-- Use the in-browser SSH from the Google Cloud Console
 - Using GitHub for your app (cloning on remote instance)
+- When running your Dash app
 
 ## Environment Setup
 
@@ -24,8 +24,7 @@ Using Render or Railway.
 4. Select your app (repository) card in the dashboard. Click **Settings**.
 5. Change the **Build Command** to `pip install -r requirements.txt`
 6. Change the **Start Command** to `python app.py`
-7. Share this publicly under **Environment**, and beneath "Domains", select "Generate Domain".
-
+7. Share this publicly under **Environment**, and beneath "Domains", select "Generate Domain". (You can edit it this, if your edited version is available.)
 
 
 ## Render
@@ -36,3 +35,6 @@ Using Render or Railway.
 4. Pick your project's app repository.
 5. Click **Connect**.
 6. Select Python 3 as your Environment.
+7. Change the **Start Command** to be `python app.py`
+8. On the side bar, select **Environment**, and "Add Environment Variable".
+9. Set a key for "PYTHON_VERSION" and its value to be the python version running on your environment. You can check this on your local computer (in the environment) by running `python --version`. You'll need the full 3-decimal version value (e.g., `3.9.15`)
