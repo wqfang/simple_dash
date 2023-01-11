@@ -1,0 +1,6 @@
+name: simple-dash
+dependencies:
+  - python=3.9
+  - pip
+  - pandas
+  - dash

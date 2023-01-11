@@ -1,0 +1,5 @@
+# iPython
+.ipynb*
+*.pyc
+
+# app stuff
