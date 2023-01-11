@@ -1,6 +1,6 @@
 # a simple dash app
 
-Using Google Cloud and Render or Railway
+Using Render or Railway.
 
 ## a few things
 
@@ -21,6 +21,10 @@ Using Google Cloud and Render or Railway
 1. Sign up using your GitHub account.
 2. Create a new project, only give Railway access to select repositories.
 3. Create a new environment in the Dashboard Settings.
+4. Select your app (repository) card in the dashboard. Click **Settings**.
+5. Change the **Build Command** to `pip install -r requirements.txt`
+6. Change the **Start Command** to `python app.py`
+7. Share this publicly under **Environment**, and beneath "Domains", select "Generate Domain".
 
 
 
@@ -32,7 +36,3 @@ Using Google Cloud and Render or Railway
 4. Pick your project's app repository.
 5. Click **Connect**.
 6. Select Python 3 as your Environment.
-
-
-
-pip install -r requirements.txt
