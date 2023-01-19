@@ -130,7 +130,7 @@ def update_data_button(nclicks):
 
 if __name__ == '__main__':
     # cloud
-    # app.run_server(host='0.0.0.0', debug=True)
+    app.run_server(host='0.0.0.0', debug=True)
 
     # debugging
-    app.run_server(host='0.0.0.0', debug=True, port=8050)
+    # app.run_server(host='0.0.0.0', debug=True, port=8050)
