@@ -4,4 +4,9 @@ dependencies:
   - pip
   - pip:
     - pandas
+    - numpy
+    - ipykernel
+    - psycopg2-binary
     - dash
+    - SQLAlchemy
+    - scikit-learn

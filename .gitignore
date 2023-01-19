@@ -1,5 +1,8 @@
 # iPython
 .ipynb*
 *.pyc
+__pycache__
 
 # app stuff
+scratch.ipynb
+.env

@@ -31,3 +31,4 @@ def conditional_formatting(conditional_formats):
         style_data_conditional.append(style_conditional)
 
     return style_data_conditional
+
