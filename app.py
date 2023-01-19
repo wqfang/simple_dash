@@ -22,7 +22,7 @@ app = dash.Dash(
     suppress_callback_exceptions=True)
 
 # Connect to database
-engine = create_engine(os.environ['RAILWAY_SQL_URL'])
+engine = create_engine(os.environ['DATABASE_URL'])
 
 app.layout = html.Div(children=[
     html.Div(children='''
